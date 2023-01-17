@@ -265,4 +265,19 @@ class ML_Methods:
         plt.close('all')
 
 
+        def plotting_ROC(self):
+            """
+            plotting the ROC
+            :param self:
+            :return:
+            """
+
+        def plotting_CM(self):
+            """
+            plotting the ROC
+            :param self:
+            :return:
+            """
+
+
 
