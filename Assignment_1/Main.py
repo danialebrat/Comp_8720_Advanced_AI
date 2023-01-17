@@ -34,6 +34,7 @@ if __name__ == "__main__":
         for model_name, model in Models:
 
             method.plot_decision_boundary(model, X, Y, model_name, name)
+            grid_search_tuning(Models, x_train, y_train)
 
 
 

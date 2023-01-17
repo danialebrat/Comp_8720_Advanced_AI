@@ -4,11 +4,15 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.metrics import confusion_matrix, accuracy_score, plot_confusion_matrix
 import numpy as np
 from sklearn.model_selection import StratifiedKFold, cross_val_score, RepeatedKFold
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
+import pandas as pd
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+from sklearn_evaluation.plot import grid_search
 
 
 PLOT_PATH = "Assignment_1/Plots/"
@@ -265,6 +269,78 @@ class ML_Methods:
         plt.close('all')
 
 
+        def storing_results(self, Results, dataset_name):
+            """
+            Storing the results in a csv file
+            :return:
+            """
+
+            info = pd.DataFrame(Results,
+                                columns=['Classifier', 'PPV', 'NPV', 'Sensitivity', 'Specificity', 'Testing_Accuracy'])
+            self.store(info, dest=RESULT_PATH, name=dataset_name)
+
+        def store(self, df, dest, name):
+            """
+            Storing the results as an excel file in a folder
+            :param dest:
+            :param name:
+            :return:
+            """
+            path = dest + name + ".xlsx"
+
+            df.to_excel(path)
+
+        def grid_search_tuning(self, Models, x_train, y_train):
+
+            for name, model in Models:
+                if name == "SVM_rbf":
+
+                    continue
+                    C_range = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+                    gamma_range = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+                    degrees = range(3, 10, 2)
+                    parameters = dict(gamma=gamma_range, C=C_range, degree=degrees)
+
+                else:
+                    parameters = {
+                        'max_features': [7, 8, 9, 10, 12, 13, 14, 15, 20],
+                        'n_estimators': [250, 300, 350, 400, 450, 500, 550],
+                    }
+
+                grid = GridSearchCV(model, parameters, refit=True, verbose=0)
+
+                # fitting the model for grid search
+                grid.fit(x_train, y_train)
+
+                gs = GridSearchCV(estimator=model,
+                                  param_grid=parameters,
+                                  scoring='accuracy',
+                                  cv=10,
+                                  refit=True,
+                                  n_jobs=-1,
+                                  verbose=0)
+
+                gs.fit(x_train, y_train)
+
+                if name == "Random_Forest":
+                    grid_search(gs.cv_results_, change='max_features')
+                    title = "Progress of the GridSearch _ {}".format(name)
+                    plt.title(title)
+                    plt.show()
+
+                    # saving the plots
+                    fname = PLOT_PATH + title + ".png"
+                    plt.savefig(fname, dpi=100)
+                    plt.close('all')
+
+                best_accuracy = gs.best_score_
+                best_parameters = gs.best_params_
+
+                print("{} Classifies: ***** ".format(name))
+                print("Best Accuracy: {:.2f} %".format(best_accuracy * 100))
+                print("Best Parameters:", best_parameters)
+
+
         def plotting_ROC(self):
             """
             plotting the ROC
@@ -272,12 +348,17 @@ class ML_Methods:
             :return:
             """
 
-        def plotting_CM(self):
-            """
-            plotting the ROC
-            :param self:
-            :return:
-            """
+        def plotting_confusion_matrix(self, model, x_test, y_test, name):
+
+            plot_confusion_matrix(model, x_test, y_test)
+            title = "Confusion Matrix _ {}".format(name)
+            plt.title(title)
+            plt.show()
+
+            # saving the plots
+            fname = PLOT_PATH + title + ".png"
+            plt.savefig(fname, dpi=100)
+            plt.close('all')
 
 
 
