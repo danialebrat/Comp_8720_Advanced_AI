@@ -1,8 +1,11 @@
 from Datasets import Datasets
-from Clustering_Methods import ML_Methods
+from Clustering_Methods import Clustering_Methods
 
 # Path to the folder of Datasets
 FOLDER_PATH = "Assignment_1\Datasets.py"
+
+# Number of clusters
+n_clusters = 2
 
 
 if __name__ == "__main__":
@@ -15,7 +18,7 @@ if __name__ == "__main__":
     for name,data in zip(Data.Name_List, Data.Data_List):
 
         # creating and ML_method object for each dataset
-        method = ML_Methods(name=name, dataset=data)
+        method = Clustering_Methods(name=name, dataset=data, n_clusters=n_clusters)
         X, Y = method.preprocess(data)
 
         # spliting the dataset
@@ -34,7 +37,6 @@ if __name__ == "__main__":
         for model_name, model in Models:
 
             method.plot_decision_boundary(model, X, Y, model_name, name)
-            grid_search_tuning(Models, x_train, y_train)
 
 
 

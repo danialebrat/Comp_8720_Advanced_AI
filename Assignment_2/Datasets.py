@@ -3,10 +3,12 @@ import os
 import pandas as pd
 from sklearn.model_selection import RepeatedKFold
 
+DATA = "C:/Users/dania/PycharmProjects/Comp_8720_Advanced_AI/Assignment_2/Datasets"
+
 class Datasets:
 
 
-    def __init__(self, folder_path):
+    def __init__(self, folder_path = DATA):
 
         self.folder_path = folder_path
         self.Name_List = []
