@@ -116,16 +116,20 @@ class Clustering_Methods:
 
 
     def data_spliting(self, x, y, test_size=0.2, random_state=1):
+        pass
 
 
 
     def plotting(self, results, names, dataset_name):
+        pass
 
 
     def confusion_metrics(self, conf_matrix, accuracy_score, method_name, dataset_name):
+        pass
 
 
     def plot_decision_boundary(self, model, X, Y, model_name, dataset_name):
+        pass
 
 
 
