@@ -1,9 +1,9 @@
 #%%
 import matplotlib.pyplot as plt
-
 from sklearn import datasets
-
 from utils import *
+
+
 n_samples = 1500
 S_points, S_color = datasets.make_s_curve(n_samples, random_state=0)
 Swiss_points, Swiss_colors = datasets.make_swiss_roll(n_samples=n_samples, random_state=0)
@@ -12,7 +12,7 @@ plot_3d(S_points, S_color, "Original S-curve samples")
 plot_3d(Swiss_points, Swiss_colors, "Original S-curve samples")
 
 #-------------- Manifold Learning --------------------
-n_neighbors = 5  # neighborhood which is used to recover the locally linear structure
+n_neighbors = 12  # neighborhood which is used to recover the locally linear structure
 n_components = 2  # number of coordinates for the manifold
 
 
@@ -20,6 +20,7 @@ params = {
     "n_neighbors": n_neighbors,
     "n_components": n_components,
     "eigen_solver": "auto",
+    # "eigen_solver": "arpack",
     "random_state": 0,
 }
 
