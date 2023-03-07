@@ -6,10 +6,10 @@ from utils import *
 
 n_samples = 1500
 S_points, S_color = datasets.make_s_curve(n_samples, random_state=0)
-Swiss_points, Swiss_colors = datasets.make_swiss_roll(n_samples=n_samples, random_state=0)
+Swiss_points, Swiss_color = datasets.make_swiss_roll(n_samples=n_samples, random_state=0)
 
 plot_3d(S_points, S_color, "Original S-curve samples")
-plot_3d(Swiss_points, Swiss_colors, "Original S-curve samples")
+plot_3d(Swiss_points, Swiss_color, "Original S-curve samples")
 
 #-------------- Manifold Learning --------------------
 n_neighbors = 12  # neighborhood which is used to recover the locally linear structure
@@ -37,15 +37,19 @@ Swiss_hessian = lle_hessian(Swiss_points, params)
 S_mod = lle_mod(S_points, params)
 Swiss_mod = lle_mod(Swiss_points, params)
 
-S_isomap = isomap(S_points, params['n_neighbors'], params["n_components"], p=1)
-Swiss_isomap = isomap(Swiss_points, params['n_neighbors'], params["n_components"], p=1)
+S_isomap = isomap(S_points, num_components=params['n_components'], 
+                  num_neighbors=params['n_neighbors'], p=1)
+Swiss_isomap = isomap(Swiss_points, num_components=params['n_components'], 
+                      num_neighbors=params['n_neighbors'], p=1)
 
-S_spectral = spectral_Laplacian_Eigen_map(S_points, params['n_neighbors'], params["n_components"], p=1)
-Swiss_spectral = spectral_Laplacian_Eigen_map(Swiss_points, params['n_neighbors'], params["n_components"], p=1)
+S_spectral = spectral_Laplacian_Eigen_map(S_points,num_components=params['n_components'], 
+                                          num_neighbors=params['n_neighbors'], p=1)
+Swiss_spectral = spectral_Laplacian_Eigen_map(Swiss_points,num_components=params['n_components'], 
+                                              num_neighbors=params['n_neighbors'], p=1)
 
 
 fig, axs = plt.subplots(
-    nrows=2, ncols=2, figsize=(7, 7), facecolor="white", constrained_layout=True
+    nrows=3, ncols=2, figsize=(7, 7), facecolor="white", constrained_layout=True
 )
 fig.suptitle("Locally Linear Embeddings", size=16)
 
@@ -54,6 +58,9 @@ lle_methods = [
     ("Local tangent space alignment", S_ltsa),
     ("Hessian eigenmap", S_hessian),
     ("Modified locally linear embedding", S_mod),
+    ("Isomap Embedding", S_isomap),
+    ("Spectral embedding", S_spectral),
+
 ]
 for ax, method in zip(axs.flat, lle_methods):
     name, points = method
