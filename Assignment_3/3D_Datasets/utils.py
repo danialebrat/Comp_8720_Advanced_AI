@@ -41,33 +41,33 @@ def add_2d_scatter(ax, points, points_color, title=None):
 # Manifolds clusterings
 
 def lle_standard(input_points, params):
-    lle_standard = manifold.LocallyLinearEmbedding(method="standard", **params)
-    return lle_standard.fit_transform(input_points)
+    lle_standard_ = manifold.LocallyLinearEmbedding(method="standard", **params)
+    return lle_standard_.fit_transform(input_points)
 
 
 def lle_ltsa(input_points, params):
-    lle_ltsad = manifold.LocallyLinearEmbedding(method="standard", **params)
-    return lle_ltsad.fit_transform(input_points)
+    lle_ltsad_ = manifold.LocallyLinearEmbedding(method="standard", **params)
+    return lle_ltsad_.fit_transform(input_points)
 
 
 def lle_hessian(input_points, params):
-    lle_hessian = manifold.LocallyLinearEmbedding(method="standard", **params)
-    return lle_hessian.fit_transform(input_points)
+    lle_hessian_ = manifold.LocallyLinearEmbedding(method="standard", **params)
+    return lle_hessian_.fit_transform(input_points)
 
 
 def lle_mod(input_points, params):
-    lle_mod = manifold.LocallyLinearEmbedding(method="standard", **params)
-    return lle_mod.fit_transform(input_points)
+    lle_mod_ = manifold.LocallyLinearEmbedding(method="standard", **params)
+    return lle_mod_.fit_transform(input_points)
 
 
 def isomap(input_points, num_components, num_neighbors, p=1):
-    isomap = manifold.Isomap(n_neighbors=num_neighbors, 
+    isomap_ = manifold.Isomap(n_neighbors=num_neighbors, 
                              n_components=num_components,
                              p=1)
-    return isomap.fit_transform(input_points)
+    return isomap_.fit_transform(input_points)
 
 
 def spectral_Laplacian_Eigen_map(input_points, num_components, num_neighbors, p=1):
-    spectral = manifold.SpectralEmbedding(n_neighbors=num_neighbors, 
+    spectral_ = manifold.SpectralEmbedding(n_neighbors=num_neighbors, 
                                           n_components=num_components)
-    return spectral.fit_transform(input_points)
+    return spectral_.fit_transform(input_points)
