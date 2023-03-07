@@ -12,7 +12,7 @@ plot_3d(S_points, S_color, "Original S-curve samples")
 plot_3d(Swiss_points, Swiss_colors, "Original S-curve samples")
 
 #-------------- Manifold Learning --------------------
-n_neighbors = 12  # neighborhood which is used to recover the locally linear structure
+n_neighbors = 5  # neighborhood which is used to recover the locally linear structure
 n_components = 2  # number of coordinates for the manifold
 
 
@@ -60,3 +60,5 @@ for ax, method in zip(axs.flat, lle_methods):
 
 plt.show()
 
+
+# %%
