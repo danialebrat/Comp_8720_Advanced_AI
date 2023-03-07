@@ -24,23 +24,23 @@ params = {
 }
 
 
-S_standard = lle_standard(S_points)
-Swiss_standard = lle_standard(Swiss_points)
+S_standard = lle_standard(S_points, params)
+Swiss_standard = lle_standard(Swiss_points, params)
 
-S_ltsa = lle_ltsa(S_points)
-Swiss_ltsa = lle_ltsa(Swiss_points)
+S_ltsa = lle_ltsa(S_points, params)
+Swiss_ltsa = lle_ltsa(Swiss_points, params)
 
-S_hessian = lle_hessian(S_points)
-Swiss_hessian = lle_hessian(Swiss_points)
+S_hessian = lle_hessian(S_points, params)
+Swiss_hessian = lle_hessian(Swiss_points, params)
 
-S_mod = lle_mod(S_points)
-Swiss_mod = lle_mod(Swiss_points)
+S_mod = lle_mod(S_points, params)
+Swiss_mod = lle_mod(Swiss_points, params)
 
-S_isomap = isomap(S_points, params["n_neightbos"], params["n_components"], p=1)
-Swiss_isomap = isomap(Swiss_points, params["n_neightbos"], params["n_components"], p=1)
+S_isomap = isomap(S_points, params['n_neighbors'], params["n_components"], p=1)
+Swiss_isomap = isomap(Swiss_points, params['n_neighbors'], params["n_components"], p=1)
 
-S_spectral = spectral_Laplacian_Eigen_map(S_points, params["n_neightbos"], params["n_components"], p=1)
-Swiss_spectral = spectral_Laplacian_Eigen_map(Swiss_points, params["n_neightbos"], params["n_components"], p=1)
+S_spectral = spectral_Laplacian_Eigen_map(S_points, params['n_neighbors'], params["n_components"], p=1)
+Swiss_spectral = spectral_Laplacian_Eigen_map(Swiss_points, params['n_neighbors'], params["n_components"], p=1)
 
 
 fig, axs = plt.subplots(
