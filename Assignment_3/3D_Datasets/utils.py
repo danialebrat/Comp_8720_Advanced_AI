@@ -61,9 +61,7 @@ def lle_mod(input_points, params):
 
 
 def isomap(input_points, num_components, num_neighbors, p=1):
-    isomap_ = manifold.Isomap(n_neighbors=num_neighbors, 
-                             n_components=num_components,
-                             p=1)
+    isomap_ = manifold.Isomap(n_neighbors=num_neighbors, n_components=num_components, p=1)
     return isomap_.fit_transform(input_points)
 
 
