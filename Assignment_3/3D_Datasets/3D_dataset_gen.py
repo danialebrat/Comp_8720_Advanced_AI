@@ -9,7 +9,7 @@ from sklearn import manifold, datasets
 
 n_samples = 1500
 S_points, S_color = datasets.make_s_curve(n_samples, random_state=0)
-swiss_points, swiss_colors = datasets.make_swiss_roll(n_samples=n_samples, random_state=0)
+Swiss_points, Swiss_colors = datasets.make_swiss_roll(n_samples=n_samples, random_state=0)
 #%%
 def plot_3d(points, points_color, title):
     x, y, z = points.T
@@ -47,6 +47,65 @@ def add_2d_scatter(ax, points, points_color, title=None):
 
 
 plot_3d(S_points, S_color, "Original S-curve samples")
-plot_3d(swiss_points, swiss_colors, "Original S-curve samples")
+plot_3d(Swiss_points, Swiss_colors, "Original S-curve samples")
 
 #%%
+#Manifold Learning
+n_neighbors = 12  # neighborhood which is used to recover the locally linear structure
+n_components = 2  # number of coordinates for the manifold
+
+
+params = {
+    "n_neighbors": n_neighbors,
+    "n_components": n_components,
+    "eigen_solver": "auto",
+    "random_state": 0,
+}
+
+def lle_standard(input_points, params):
+    lle_standard = manifold.LocallyLinearEmbedding(method="standard", **params)
+    return lle_standard.fit_transform(input_points)
+
+def lle_ltsa(input_points, params):
+    lle_ltsad = manifold.LocallyLinearEmbedding(method="standard", **params)
+    return lle_ltsa.fit_transform(input_points)
+
+def lle_hessian(input_points, params):
+    lle_hessian = manifold.LocallyLinearEmbedding(method="standard", **params)
+    return lle_hessian.fit_transform(input_points)
+
+def lle_mod(input_points, params):
+    lle_mod = manifold.LocallyLinearEmbedding(method="standard", **params)
+    return lle_mod.fit_transform(input_points)
+
+
+S_standard = lle_standard(S_points)
+Swiss_standard = lle_standard(Swiss_points)
+
+S_ltsa = lle_ltsa(S_points)
+Swiss_ltsa = lle_ltsa(Swiss_points)
+
+S_hessian = lle_hessian(S_points)
+Swiss_hessian = lle_hessian(Swiss_points)
+
+S_mod = lle_mod(S_points)
+Swiss_mod = lle_mod(Swiss_points)
+
+
+fig, axs = plt.subplots(
+    nrows=2, ncols=2, figsize=(7, 7), facecolor="white", constrained_layout=True
+)
+fig.suptitle("Locally Linear Embeddings", size=16)
+
+lle_methods = [
+    ("Standard locally linear embedding", S_standard),
+    ("Local tangent space alignment", S_ltsa),
+    ("Hessian eigenmap", S_hessian),
+    ("Modified locally linear embedding", S_mod),
+]
+for ax, method in zip(axs.flat, lle_methods):
+    name, points = method
+    add_2d_scatter(ax, points, S_color, name)
+
+plt.show()
+# %%
