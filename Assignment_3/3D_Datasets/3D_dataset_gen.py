@@ -1,6 +1,7 @@
+#! /opt/homebrew/Caskroom/miniforge/base/envs/tensor-metal/bin/python
 #%%
 import matplotlib.pyplot as plt
-from sklearn import datasets
+from sklearn import datasets 
 from utils import *
 
 
