@@ -66,7 +66,7 @@ for i in range(10,40, 2):
 
     plt.show()
     
-    plt.savefig(os.getcwd()+ "/Assignment_3/3D_Datasets/plots/Locally Linear Embeddings for S curve with {} neighbors".format(params['n_neighbors']), dpi = 300)
+    # plt.savefig(os.getcwd()+ "/Assignment_3/3D_Datasets/plots/Locally Linear Embeddings for S curve with {} neighbors".format(params['n_neighbors']), dpi = 300)
 
     # Swiss Dataset 
     plot_3d(Swiss_points, Swiss_color, "Original Swiss-curve samples")
@@ -105,5 +105,6 @@ for i in range(10,40, 2):
         add_2d_scatter(ax, points, Swiss_color, name)
 
     plt.show()
-    plt.savefig(os.getcwd()+ "/Assignment_3/3D_Datasets/plots/Locally Linear Embeddings for Swiss curve with {} neighbors".format(params['n_neighbors']), dpi = 300)
+    # plt.savefig(os.getcwd()+ "/Assignment_3/3D_Datasets/plots/Locally Linear Embeddings for Swiss curve with {} neighbors"
+    #             .format(params['n_neighbors']), dpi = 300)
 
