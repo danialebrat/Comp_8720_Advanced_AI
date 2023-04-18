@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b411ee86-32fd-4a15-95c1-d569a2e35ae5" name="Changes" comment="fixing the plots considering the assignment">
+      <change beforePath="$PROJECT_DIR$/Assignment_3/A_3_circles0_3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_3/A_3_circles0_3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_3/A_3_halfkernel.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_3/A_3_halfkernel.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_3/A_3_moons1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_3/A_3_moons1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_3/A_3_spiral1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_3/A_3_spiral1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Project/Code_v1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/Code_v1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Project/Code_v2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/Code_v2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Project/EDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/EDA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Project/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/main.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KQb0ItE5nCHorUFv1tfhhTyCvn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/dania/PycharmProjects/Comp_8720_Advanced_AI/Final Project/Dataset",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dania\PycharmProjects\Comp_8720_Advanced_AI\Final Project\Dataset" />
+      <recent name="C:\Users\dania\PycharmProjects\Comp_8720_Advanced_AI\Final Project" />
+      <recent name="C:\Users\dania\PycharmProjects\Comp_8720_Advanced_AI\Assignment_2\Jupyter\twogaussians42_results" />
+      <recent name="C:\Users\dania\PycharmProjects\Comp_8720_Advanced_AI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dania\PycharmProjects\Comp_8720_Advanced_AI\Assignment_2\Jupyter\Kmeans_performance_using_different_K" />
+      <recent name="C:\Users\dania\PycharmProjects\Comp_8720_Advanced_AI\Assignment_2\Jupyter\halfkernel1_results" />
+      <recent name="C:\Users\dania\PycharmProjects\Comp_8720_Advanced_AI\Assignment_2\Jupyter\moons1_results" />
+      <recent name="C:\Users\dania\PycharmProjects\Comp_8720_Advanced_AI\Assignment_2\Jupyter\circles0.3_results" />
+      <recent name="C:\Users\dania\PycharmProjects\Comp_8720_Advanced_AI\Assignment_2\Jupyter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Comp_8720_Advanced_AI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\dania\PycharmProjects\Comp_8720_Advanced_AI\Assignment_2\OOP\Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Comp_8720_Advanced_AI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b411ee86-32fd-4a15-95c1-d569a2e35ae5" name="Changes" comment="" />
+      <created>1673909529957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673909529957</updated>
+    </task>
+    <task id="LOCAL-00001" summary="declaring plotting functions for ROC and Confusion Matrix">
+      <created>1673970993322</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673970993322</updated>
+    </task>
+    <task id="LOCAL-00002" summary="addding plotting storing functions">
+      <created>1673972164225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673972164225</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding Clustering methods">
+      <created>1676332352756</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676332352756</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Creating the directory for assignment 2&#10;Creating the structure of the program">
+      <created>1676574952995</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676574952995</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding jupyter notebook files for each dataset">
+      <created>1677207279290</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677207279290</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding datasets">
+      <created>1677207393655</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677207393655</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixing Spectral Clustering and the plot titles">
+      <created>1677211074350</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677211074350</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixing Spectral Clustering and the plot titles">
+      <created>1677211588578</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677211588578</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adding Cluster validity, results and the plots">
+      <created>1677225088415</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677225088415</updated>
+    </task>
+    <task id="LOCAL-00010" summary="improving the accuracy">
+      <created>1677343749213</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677343749213</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adding plots for kmeans">
+      <created>1677386025991</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677386025991</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adding plots for kmeans">
+      <created>1677391957990</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677391957990</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adding plots for kmeans">
+      <created>1677391973311</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677391973311</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fixing the plots considering the assignment">
+      <created>1677397600755</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677397600755</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="declaring plotting functions for ROC and Confusion Matrix" />
+    <MESSAGE value="addding plotting storing functions" />
+    <MESSAGE value="Adding Clustering methods" />
+    <MESSAGE value="Creating the directory for assignment 2&#10;Creating the structure of the program" />
+    <MESSAGE value="Adding jupyter notebook files for each dataset" />
+    <MESSAGE value="Adding datasets" />
+    <MESSAGE value="Fixing Spectral Clustering and the plot titles" />
+    <MESSAGE value="Adding Cluster validity, results and the plots" />
+    <MESSAGE value="improving the accuracy" />
+    <MESSAGE value="Adding plots for kmeans" />
+    <MESSAGE value="fixing the plots considering the assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing the plots considering the assignment" />
+  </component>
+</project>
