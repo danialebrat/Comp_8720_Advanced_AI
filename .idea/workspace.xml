@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b411ee86-32fd-4a15-95c1-d569a2e35ae5" name="Changes" comment="Adding UMAP" />
+    <list default="true" id="b411ee86-32fd-4a15-95c1-d569a2e35ae5" name="Changes" comment="Adding PCA">
+      <change beforePath="$PROJECT_DIR$/Final Project/.ipynb_checkpoints/T_SNE_test-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Project/Clustering_Methods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Project/K_PCA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/K_PCA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Project/T_SNE_test.ipynb" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -243,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682006677036</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Adding PCA">
+      <created>1682014629586</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1682014629586</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,6 +273,7 @@
     <MESSAGE value="Adding KPCA" />
     <MESSAGE value="Adding T_SNE" />
     <MESSAGE value="Adding UMAP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding UMAP" />
+    <MESSAGE value="Adding PCA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding PCA" />
   </component>
 </project>
