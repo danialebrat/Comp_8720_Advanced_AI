@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b411ee86-32fd-4a15-95c1-d569a2e35ae5" name="Changes" comment="Adding KPCA">
-      <change beforePath="$PROJECT_DIR$/Final Project/.ipynb_checkpoints/T_SNE-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/.ipynb_checkpoints/T_SNE-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Project/T_SNE.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/T_SNE.ipynb" afterDir="false" />
+    <list default="true" id="b411ee86-32fd-4a15-95c1-d569a2e35ae5" name="Changes" comment="Adding T_SNE">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681965492420</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Adding T_SNE">
+      <created>1681967508073</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681967508073</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Adding T_SNE">
+      <created>1681967522001</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681967522001</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -234,6 +247,7 @@
     <MESSAGE value="Adding plots for kmeans" />
     <MESSAGE value="fixing the plots considering the assignment" />
     <MESSAGE value="Adding KPCA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding KPCA" />
+    <MESSAGE value="Adding T_SNE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding T_SNE" />
   </component>
 </project>
