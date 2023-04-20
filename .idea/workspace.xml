@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b411ee86-32fd-4a15-95c1-d569a2e35ae5" name="Changes" comment="fixing the plots considering the assignment">
-      <change beforePath="$PROJECT_DIR$/Assignment_3/A_3_circles0_3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_3/A_3_circles0_3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment_3/A_3_halfkernel.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_3/A_3_halfkernel.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment_3/A_3_moons1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_3/A_3_moons1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment_3/A_3_spiral1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_3/A_3_spiral1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Project/Code_v1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/Code_v1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Project/Code_v2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/Code_v2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Project/.ipynb_checkpoints/Code_v1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Project/.ipynb_checkpoints/Code_v2-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Project/Code_v1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Project/Code_v2.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Final Project/EDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/EDA.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Project/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/main.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +29,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/dania/PycharmProjects/Comp_8720_Advanced_AI/Final Project/Dataset",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dania/PycharmProjects/Comp_8720_Advanced_AI/Final Project/Dataset&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dania\PycharmProjects\Comp_8720_Advanced_AI\Final Project\Dataset" />
@@ -210,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677397600755</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fixing the plots considering the assignment">
+      <created>1681831645833</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681831645833</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
