@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b411ee86-32fd-4a15-95c1-d569a2e35ae5" name="Changes" comment="fixing the plots considering the assignment">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Project/.ipynb_checkpoints/Code_v1-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Project/.ipynb_checkpoints/Code_v2-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Project/Code_v1.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Project/Code_v2.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Project/EDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/EDA.ipynb" afterDir="false" />
+    <list default="true" id="b411ee86-32fd-4a15-95c1-d569a2e35ae5" name="Changes" comment="Adding KPCA">
+      <change beforePath="$PROJECT_DIR$/Final Project/.ipynb_checkpoints/T_SNE-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/.ipynb_checkpoints/T_SNE-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Project/T_SNE.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/T_SNE.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681831645833</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Adding KPCA">
+      <created>1681965492420</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681965492420</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,6 +233,7 @@
     <MESSAGE value="improving the accuracy" />
     <MESSAGE value="Adding plots for kmeans" />
     <MESSAGE value="fixing the plots considering the assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing the plots considering the assignment" />
+    <MESSAGE value="Adding KPCA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding KPCA" />
   </component>
 </project>
