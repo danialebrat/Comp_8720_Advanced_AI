@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b411ee86-32fd-4a15-95c1-d569a2e35ae5" name="Changes" comment="Plotting the result of KPCA">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Project/Interpretability.ipynb" beforeDir="false" />
+    <list default="true" id="b411ee86-32fd-4a15-95c1-d569a2e35ae5" name="Changes" comment="adding the result of T-SNE">
+      <change afterPath="$PROJECT_DIR$/Final Project/.ipynb_checkpoints/Interpretability-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Final Project/.ipynb_checkpoints/Interpretability_PCA-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Project/PCA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/PCA.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Final Project/T_SNE.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/T_SNE.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -261,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682024407841</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="adding the result of T-SNE">
+      <created>1682077132664</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1682077132664</updated>
+    </task>
+    <task id="LOCAL-00024" summary="adding the result of T-SNE">
+      <created>1682086047146</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1682086047146</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -281,6 +296,7 @@
     <MESSAGE value="Adding UMAP" />
     <MESSAGE value="Adding PCA" />
     <MESSAGE value="Plotting the result of KPCA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plotting the result of KPCA" />
+    <MESSAGE value="adding the result of T-SNE" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the result of T-SNE" />
   </component>
 </project>
