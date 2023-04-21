@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b411ee86-32fd-4a15-95c1-d569a2e35ae5" name="Changes" comment="Adding PCA">
-      <change beforePath="$PROJECT_DIR$/Final Project/.ipynb_checkpoints/T_SNE_test-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Project/Clustering_Methods.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Project/K_PCA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/K_PCA.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Project/T_SNE_test.ipynb" beforeDir="false" />
+    <list default="true" id="b411ee86-32fd-4a15-95c1-d569a2e35ae5" name="Changes" comment="Plotting the result of KPCA">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Project/Interpretability.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Project/T_SNE.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/T_SNE.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682014629586</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Plotting the result of KPCA">
+      <created>1682024407841</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1682024407841</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -274,6 +280,7 @@
     <MESSAGE value="Adding T_SNE" />
     <MESSAGE value="Adding UMAP" />
     <MESSAGE value="Adding PCA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding PCA" />
+    <MESSAGE value="Plotting the result of KPCA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plotting the result of KPCA" />
   </component>
 </project>
